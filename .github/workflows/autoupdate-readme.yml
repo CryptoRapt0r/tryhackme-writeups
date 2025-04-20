@@ -1,0 +1,40 @@
+name: Auto-Update README
+
+on:
+  push:
+    paths:
+      - 'writeups/**'
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Generate README
+        run: |
+          echo "# tryhackme-writeups" > README.md
+          echo "" >> README.md
+          echo "Welcome to my cybersecurity writeups repo!" >> README.md
+          echo "Here are all my completed TryHackMe rooms:" >> README.md
+          echo "" >> README.md
+
+          for file in writeups/*.md; do
+            title=$(head -n 1 "$file" | sed 's/^# //')
+            name=$(basename "$file")
+            echo "- [$title](writeups/$name)" >> README.md
+          done
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git diff --quiet || (
+            git add README.md
+            git commit -m "Auto-update README with new writeup list"
+            git push
+          )
