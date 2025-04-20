@@ -43,17 +43,17 @@ Visited http://fakebank.thm/bank-transfer
 → Simulated transfer of $2000 to account 8881
 
 
-### 🏁 Flag
+## 🏁 Flag
 Message displayed:
 
 Congratulations - you hacked the bank!  
 The answer is BANK-HACKED
 
-### ✅ Submitted flag: BANK-HACKED
+## ✅ Submitted flag: BANK-HACKED
 
 ![image](https://github.com/user-attachments/assets/1ec5a3e3-7d4a-40b8-b5fc-4a395d36e063)
 
-### 🧠 Takeaways
+# 🧠 Takeaways
 Recon is the most important step in offensive security
 
 Gobuster = simple, powerful, fast
