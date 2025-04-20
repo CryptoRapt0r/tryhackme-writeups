@@ -8,7 +8,7 @@ I'm currently preparing for the **CompTIA Security+** certification and using Tr
 
 ## 📁 Completed Writeups
 
-- [Offensive Security Intro](offsec-intro.md)  
+- [Offensive Security Intro](writeups/offsec-intro.md)  
   *Beginner-friendly lab to practice web enumeration, endpoint discovery, and basic exploitation techniques.*
 
 ---
