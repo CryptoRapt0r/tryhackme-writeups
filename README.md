@@ -11,6 +11,10 @@ I'm currently preparing for the **CompTIA Security+** certification and using Tr
 - [Offensive Security Intro](writeups/offsec-intro.md)  
   *Beginner-friendly lab to practice web enumeration, endpoint discovery, and basic exploitation techniques.*
 
+- [Defensive Security Intro](writeups/defsec-intro.md)  
+  *Introductory room covering SOC roles, threat intelligence, incident response, malware analysis, and a simulated SIEM investigation.*
+
+
 ---
 
 ## 🛠️ Tools Used (so far)
