@@ -2,7 +2,6 @@
 
 Welcome to my writeup for the **Defensive Security Intro** room on TryHackMe.  
 This was my second room in the series — a hands-on beginner walkthrough into blue team fundamentals.  
-🔗 [Room Link](https://tryhackme.com/room/defensivesecurity)
 
 ---
 
