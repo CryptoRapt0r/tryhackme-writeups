@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate README
         run: |
-          echo "# tryhackme-writeups" > README.md
+          echo "# tryhackme/writeups" > README.md
           echo "" >> README.md
           echo "Welcome to my cybersecurity writeups repo!" >> README.md
           echo "Here are all my completed TryHackMe rooms:" >> README.md
