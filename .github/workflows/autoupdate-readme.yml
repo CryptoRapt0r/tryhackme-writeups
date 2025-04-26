@@ -12,29 +12,55 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Generate README
         run: |
-          echo "# tryhackme/writeups" > README.md
+          echo "# 🛡️ tryhackme-writeups" > README.md
           echo "" >> README.md
           echo "Welcome to my cybersecurity writeups repo!" >> README.md
-          echo "Here are all my completed TryHackMe rooms:" >> README.md
+          echo "Here I document my learning journey through **TryHackMe** labs, including challenges, notes, tools used, and lessons learned." >> README.md
+          echo "I'm currently preparing for the **CompTIA Security+** certification and using TryHackMe to gain hands-on experience." >> README.md
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "## 📁 Completed Writeups" >> README.md
           echo "" >> README.md
 
           for file in writeups/*.md; do
-            title=$(head -n 1 "$file" | sed 's/^# //')
+            title=$(head -n 1 "$file" | sed 's/# //')
             name=$(basename "$file")
             echo "- [$title](writeups/$name)" >> README.md
           done
 
-      - name: Commit and Push if Changed
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "## 🛠️ Tools Used (so far)" >> README.md
+          echo "- Gobuster" >> README.md
+          echo "- Firefox (for recon + analysis)" >> README.md
+          echo "- wordlist.txt" >> README.md
+          echo "- TryHackMe VM" >> README.md
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "## 💡 What I'm Working On" >> README.md
+          echo "- Building a solid base in Blue Team fundamentals" >> README.md
+          echo "- Writing clean and structured markdown reports" >> README.md
+          echo "- Networking with the InfoSec community" >> README.md
+          echo "- Expanding my GitHub Pages site" >> README.md
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "## 🌐 About Me" >> README.md
+          echo "I'm transitioning into cybersecurity from a creative background in mobile game marketing." >> README.md
+          echo "Follow my journey on GitHub, LinkedIn, and TryHackMe." >> README.md
+          echo "" >> README.md
+          echo "> Always learning. Always documenting. Always sharing." >> README.md
+
+      - name: Commit and push changes
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git diff --quiet || (
-            git add README.md
-            git commit -m "Auto-update README with new writeup list"
-            git push
-          )
+          git diff --quiet || (git add README.md && git commit -m "Auto-update README with new writeups" && git push)
