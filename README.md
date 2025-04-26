@@ -9,9 +9,6 @@ I'm currently preparing for the **CompTIA Security+** certification and using Tr
 ## 📁 Completed Writeups
 
 - [🦖 Defensive Security Intro — TryHackMe Room Writeup  ](writeups/defsec-intro.md)
-- [123](writeups/example - Copy - Copy.md)
-- [123](writeups/example - Copy.md)
-- [123](writeups/example.md)
 - [🦖 Offensive Security Intro — TryHackMe Room Writeup  ](writeups/offsec-intro.md)
 - [🕵️ TryHackMe: Search Skills – Writeup](writeups/search-skills.md)
 
