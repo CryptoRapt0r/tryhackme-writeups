@@ -55,7 +55,8 @@ Escalated the incident to appropriate staff:
 ## 🏁 Flag  
 **THM{THREAT-BLOCKED}**
 
-![SIEM Dashboard](https://github.com/user-attachments/assets/your-screenshot.png)
+![SIEM Dashboard]![image](https://github.com/user-attachments/assets/d319ef23-a1a5-4c57-b8d8-b39eefbd9667)
+
 
 ---
 
