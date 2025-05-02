@@ -1,4 +1,4 @@
-# 🕵️ TryHackMe: Search Skills – Writeup
+# 🕵️ TryHackMe: Search Skills – TryHackMe Room Writeup
 
 Welcome to my writeup for the **Search Skills** room on TryHackMe!  
 This room focused on essential **OSINT (Open-Source Intelligence)** techniques, using search engines and public databases to gather information.
