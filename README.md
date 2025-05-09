@@ -10,6 +10,7 @@ I'm currently preparing for the **CompTIA Security+** certification and using Tr
 
 - [🐉 Linux Fundamentals Part 1 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-1.md)
 - [🐧 Linux Fundamentals Part 2 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-2.md)
+- [](writeups/Linux-Fundamentals-Part-3.md)
 - [🦖 Defensive Security Intro — TryHackMe Room Writeup  ](writeups/defsec-intro.md)
 - [🦖 Offensive Security Intro — TryHackMe Room Writeup  ](writeups/offsec-intro.md)
 - [🕵️ Search Skills – TryHackMe Room Writeup](writeups/search-skills.md)
