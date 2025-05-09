@@ -1,4 +1,3 @@
-
 # 🐧 Linux Fundamentals Part 3 — TryHackMe Room Writeup
 
 **Author:** CryptoRapt0r  
