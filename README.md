@@ -8,9 +8,11 @@ I'm currently preparing for the **CompTIA Security+** certification and using Tr
 
 ## 📁 Completed Writeups
 
+- [🌐 Active Directory Basics — TryHackMe Room Writeup](writeups/Active-Directory-Basics.md)
 - [🐉 Linux Fundamentals Part 1 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-1.md)
 - [🐧 Linux Fundamentals Part 2 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-2.md)
 - [🐧 Linux Fundamentals Part 3 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-3.md)
+- [🖥️ Windows Command Line - TryHackMe Room Writeup](writeups/Windows-Command-Line.md)
 - [🪟 Windows Fundamentals Part 1 — TryHackMe Room Writeup](writeups/Windows-Fundamentals-Part-1.md)
 - [🪟 Windows Fundamentals Part 2 — TryHackMe Room Writeup](writeups/Windows-Fundamentals-Part-2.md)
 - [🪟 Windows Fundamentals Part 3 — TryHackMe Room Writeup](writeups/Windows-Fundamentals-Part-3.md)
