@@ -12,6 +12,7 @@ I'm currently preparing for the **CompTIA Security+** certification and using Tr
 - [🐉 Linux Fundamentals Part 1 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-1.md)
 - [🐧 Linux Fundamentals Part 2 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-2.md)
 - [🐧 Linux Fundamentals Part 3 — TryHackMe Room Writeup](writeups/Linux-Fundamentals-Part-3.md)
+- [🌐 OWASP Top 10 Web App Vulnerabilities — TryHackMe Room Writeup](writeups/Owasp-Top10.md)
 - [🖥️ Windows Command Line - TryHackMe Room Writeup](writeups/Windows-Command-Line.md)
 - [🪟 Windows Fundamentals Part 1 — TryHackMe Room Writeup](writeups/Windows-Fundamentals-Part-1.md)
 - [🪟 Windows Fundamentals Part 2 — TryHackMe Room Writeup](writeups/Windows-Fundamentals-Part-2.md)
